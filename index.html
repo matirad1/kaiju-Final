@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaiju 3D Lab</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" alt="Logo de Kaiju 3D Lab" class="logo">
+        <h1>Kaiju 3D Lab</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#reseñas">Reseñas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenidos a Kaiju 3D Lab</h2>
+            <p>En Kaiju 3D Lab, nos especializamos en la creación de productos impresos en 3D inspirados en tus personajes y universos favoritos del anime. Cada pieza es creada con precisión y detalle, utilizando las últimas tecnologías de impresión 3D para garantizar resultados de alta calidad.</p>
+        
+            <p>Nuestro equipo se dedica a convertir tus ideas en realidad, ofreciendo productos únicos y personalizados que no solo capturan la esencia de tus personajes preferidos, sino que también se adaptan a tus gustos y necesidades específicas. Desde figuras coleccionables hasta accesorios decorativos, cada creación está diseñada para satisfacer las expectativas más exigentes.</p>
+        
+            <p>Ya sea que estés buscando un regalo especial, completar tu colección o simplemente expresar tu pasión por el anime, en Kaiju 3D Lab encontrarás el equilibrio perfecto entre creatividad y tecnología. Nos enorgullece ofrecer productos exclusivos que no encontrarás en ningún otro lugar.</p>
+        
+            <p>Explora nuestro catálogo y descubre cómo la impresión 3D puede llevar tus personajes favoritos a la vida real.</p>
+        </section>
+        
+
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="productos-grid">
+                <div class="card">
+                    <img src="producto1.jpg" alt="Producto 1">
+                    <h3>Kafka Hibino (Kaiju No.8)</h3>
+                    <p>
+                       <p> Se encuentra fabricada mediante impresión 3D en plástico.</p>
+                       <p> Los detalles se pintan a mano y se coloca una capa de laca transparente para proteger la pintura.</p>
+                       <p>Altura Aproximada 21cm.</p>
+                       <p>Kafka Hibino es el protagonista principal de la serie de manga, Kaiju No. 8. Kafka es un oficial de la Fuerza de Defensa y ex empleado de la empresa de limpieza profesional de Kaiju, Monster Sweeper Inc. Una vez que un Kaiju logró ingresar a su cuerpo, Kafka obtuvo la capacidad de convertirse en un Kaiju humanoide identificado. Después de transformarse en Kaiju No. 8, Kafka obtiene una inmensa fuerza física y durabilidad con un nivel de fortaleza de 9.8, lo que lo convierte en el nivel más alto visto hasta ahora..</p>
+                       <button onclick="agregarAlCarrito({nombre: 'Kafka Hibino (Kaiju No.8)'})">Añadir al carrito</button>
+                </div>
+                <div class="card">
+                    <img src="producto2.jpg" alt="Producto 2">
+                    <h3>Kaiju No. 9</h3>
+                    <p>
+                        <p> Se encuentra fabricada mediante impresión 3D en plástico. </p>
+                        <p> Los detalles se pintan a mano y se coloca una capa de laca transparente para proteger la pintura.</p>
+                        <p> Altura Aproximada 21cm.</p>
+                        <p> El Kaiju No 9  es un Mega-Kaiju Humanoide que actualmente carece de un nombre real. Suele causar caos y atacar a las áreas de la Tercera División de Fuerzas de Defensa, reviviendo a los Kaijus mientras aumenta sus capacidades físicas..</p>
+                        <button onclick="agregarAlCarrito({nombre: 'Kaiju No 9'})">Añadir al carrito</button>
+                </div>
+                <div class="card">
+                    <img src="producto3.jpg" alt="Producto 3">
+                    <h3>Teddiursa</h3>
+                    <p>Figura del Pokémon Teddiursa. Se encuentra fabricada mediante impresión 3D en plástico.</p>
+
+                    <p> Los detalles se pintan a mano y se coloca una capa de laca transparente para proteger la pintura. La figura cuenta con una altura de 7 cm.</p>
+                        
+                    <p>Teddiursa es un Pokémon de la segunda generación de tipo normal. Evoluciona a Ursaring.</p>
+                    <button onclick="agregarAlCarrito({nombre: 'Teddiursa'})">Añadir al carrito</button>
+                </div>
+            </div>
+        </section>
+        <head>
+            
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        </head>
+        
+        <section id="reseñas">
+            <h2>Lo que dicen nuestros clientes</h2>
+            <div class="reseñas-grid">
+                <div class="reseña">
+                    <p>"Increíbles impresiones, me encantan los detalles!" - Armando Paredes</p>
+                    <div class="estrellas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i> 
+                    </div>
+                </div>
+                <div class="reseña">
+                    <p>"El mejor servicio y productos de calidad." - Lola Mento</p>
+                    <div class="estrellas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i> 
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <form action="https://formspree.io/f/xgvevrly" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+       <section id="carrito">
+    <h2>Carrito</h2>
+    <div id="carrito-contenedor"></div>
+</section>
+    </main>
+
+    <footer>
+        <p>© 2024 Kaiju 3D Lab - Todos los derechos reservados</p>
+    </footer>
+</body>
+<script src="script.js" defer></script>
+</html>
